@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Femme - Replica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Playfair Display', serif;
+    }
+    /* Custom scrollbar for horizontal scroll sections */
+    .scrollbar-hide::-webkit-scrollbar {
+      display: none;
+    }
+    .scrollbar-hide {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900">
+
+  <!-- Top shipping offer bar -->
+  <div class="bg-[#f3e6e1] text-center text-sm py-2 font-semibold">
+    OFERTA DOS PORTES DE ENVIO em compras superiores a 100€ para Portugal (Continental e Ilhas)
+  </div>
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-200 sticky top-0 bg-white z-50">
+    <a href="/" class="text-2xl font-playfair font-bold text-blue-900">
+      <img src="https://lflafemme.com/cdn/shop/files/logo_lafemme_black.png?v=1721918462&width=320" alt="La Femme" class="h-10 object-contain" />
+    </a>
+    <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-700">
+      <a href="/collections/new" class="hover:text-blue-900">New</a>
+      <a href="/collections/swimwear" class="hover:text-blue-900">Swimwear</a>
+      <a href="/collections/clothes" class="hover:text-blue-900">Clothes</a>
+      <a href="/collections/shoes" class="hover:text-blue-900">Shoes</a>
+      <a href="/collections/accessories" class="hover:text-blue-900">Accessories</a>
+      <a href="/pages/showroom" class="hover:text-blue-900">Showroom</a>
+    </nav>
+    <div class="flex items-center space-x-4 text-gray-700">
+      <a href="/search" aria-label="Search" class="hover:text-blue-900">
+        <i class="fas fa-search fa-lg"></i>
+      </a>
+      <a href="/cart" aria-label="Cart" class="hover:text-blue-900 relative">
+        <i class="fas fa-shopping-cart fa-lg"></i>
+        <!-- Cart count badge example -->
+        <!-- <span class="absolute -top-2 -right-2 bg-red-600 text-white rounded-full text-xs w-5 h-5 flex items-center justify-center">1</span> -->
+      </a>
+      <a href="/favorites" aria-label="Favorites" class="hover:text-blue-900">
+        <i class="fas fa-heart fa-lg"></i>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main banner -->
+  <section class="relative">
+    <img
+      src="https://lflafemme.com/cdn/shop/files/banner_swim.jpg?v=1741000512&width=3840"
+      alt="Banner | La Femme swim 2025"
+      class="w-full object-cover max-h-[600px]"
+    />
+    <div class="absolute top-1/2 left-6 md:left-16 transform -translate-y-1/2 bg-[#f3e6e1] p-6 max-w-md rounded shadow-lg">
+      <h2 class="text-xl font-semibold text-gray-700 mb-2">Nova coleção</h2>
+      <a href="/collections/new" class="text-blue-900 font-semibold hover:underline">Ver mais</a>
+    </div>
+  </section>
+
+  <!-- LA FEMME description and categories -->
+  <section class="px-6 md:px-16 py-12 bg-[#f3e6e1]">
+    <h2 class="text-2xl font-playfair font-bold mb-4">LA FEMME</h2>
+    <p class="max-w-4xl text-gray-700 mb-8 leading-relaxed">
+      Reflete a evolução da marca, uma evolução com uma visão mais ampla e inclusiva da feminilidade e representa todas as mulheres que acompanharam a marca desde o início e que continuarão a fazer parte desta história. A nova identidade não é apenas um nome, mas sim um reflexo da força, elegância e modernidade que a marca sempre defendeu.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="/collections/clothes" class="group block overflow-hidden rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Francesca-White-Jacket-LF_-_Banner.jpg?v=1727878795&width=1420"
+          alt="Clothes"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <h3 class="text-center text-lg font-semibold mt-3 text-gray-800 group-hover:text-blue-900">Clothes</h3>
+      </a>
+      <a href="/collections/shoes" class="group block overflow-hidden rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Shoes_La_Femme.jpg?v=1730543919&width=1420"
+          alt="Shoes"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <h3 class="text-center text-lg font-semibold mt-3 text-gray-800 group-hover:text-blue-900">Shoes</h3>
+      </a>
+      <a href="/collections/swimwear" class="group block overflow-hidden rounded shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/categoria-swim-2025.jpg?v=1741792664&width=1420"
+          alt="Swimwear"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <h3 class="text-center text-lg font-semibold mt-3 text-gray-800 group-hover:text-blue-900">Swimwear</h3>
+      </a>
+    </div>
+  </section>
+
+  <!-- Showroom section -->
+  <section class="px-6 md:px-16 py-12 bg-[#f3e6e1]">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+      <img
+        src="https://lflafemme.com/cdn/shop/files/Showroom_La_Femme.jpg?v=1735234878&width=1500"
+        alt="Showroom La Femme"
+        class="w-full md:w-1/2 rounded shadow-lg object-cover"
+      />
+      <div class="md:w-1/2">
+        <h2 class="text-2xl font-playfair font-bold mb-4">Showroom</h2>
+        <p class="text-gray-700 mb-4">
+          Conhece de perto cada detalhe das coleções visitando o nosso espaço.
+        </p>
+        <a href="/pages/showroom" class="text-blue-900 font-semibold hover:underline">Marcações</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Novidades (New Arrivals) section -->
+  <section class="px-6 md:px-16 py-12">
+    <h2 class="text-2xl font-playfair font-bold mb-8">Novidades</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <!-- Product 1 -->
+      <div class="border rounded shadow-sm overflow-hidden group">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Ivory_La_Femme.jpg?v=1741367040&width=533"
+          alt="Ivory"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1">
+            <a href="/products/ivory" class="hover:text-blue-900">Ivory</a>
+          </h3>
+          <p class="text-gray-600 text-sm mb-2">Preço normal 74,90 €</p>
+          <button
+            aria-label="Adicionar aos favoritos"
+            class="text-gray-400 hover:text-red-600 transition-colors"
+          >
+            <i class="fas fa-heart"></i> Adicionar aos favoritos
+          </button>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="border rounded shadow-sm overflow-hidden group">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Belle_Saison.jpg?v=1741273626&width=533"
+          alt="Belle Saison"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1">
+            <a href="/products/belle-saison" class="hover:text-blue-900">Belle Saison</a>
+          </h3>
+          <p class="text-gray-600 text-sm mb-2">Preço normal 82,90 €</p>
+          <button
+            aria-label="Adicionar aos favoritos"
+            class="text-gray-400 hover:text-red-600 transition-colors"
+          >
+            <i class="fas fa-heart"></i> Adicionar aos favoritos
+          </button>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="border rounded shadow-sm overflow-hidden group">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Classique_La_Femme_-_swim.jpg?v=1741785190&width=533"
+          alt="Classique"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1">
+            <a href="/products/classique" class="hover:text-blue-900">Classique</a>
+          </h3>
+          <p class="text-gray-600 text-sm mb-2">Preço normal 82,90 €</p>
+          <button
+            aria-label="Adicionar aos favoritos"
+            class="text-gray-400 hover:text-red-600 transition-colors"
+          >
+            <i class="fas fa-heart"></i> Adicionar aos favoritos
+          </button>
+        </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="border rounded shadow-sm overflow-hidden group">
+        <img
+          src="https://lflafemme.com/cdn/shop/files/Grace_LF_-_La_Femme.jpg?v=1741785541&width=533"
+          alt="Grace"
+          class="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+        <div class="p-4">
+          <h3 class="font-semibold text-lg mb-1">
+            <a href="/products/grace" class="hover:text-blue-900">Grace</a>
+          </h3>
+          <p class="text-gray-600 text-sm mb-2">Preço normal 82,90 €</p>
+          <button
+            aria-label="Adicionar aos favoritos"
+            class="text-gray-400 hover:text-red-600 transition-colors"
+          >
+            <i class="fas fa-heart"></i> Adicionar aos favoritos
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-gray-700 px-6 md:px-16 py-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <img
+          src="https://lflafemme.com/cdn/shop/files/logo_lafemme_black.png?v=1721918462&width=3200"
+          alt="La Femme Logo"
+          class="h-12 mb-4 object-contain"
+        />
+        <h3 class="font-semibold mb-2">La Femme</h3>
+        <ul class="space-y-1 text-sm">
+          <li><a href="/pages/sobre-nos" class="hover:text-blue-900">Sobre nós</a></li>
+          <li><a href="/products/gift-card" class="hover:text-blue-900">Gift Card</a></li>
+          <li><a href="/pages/showroom" class="hover:text-blue-900">Showroom</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Informações</h3>
+        <ul class="space-y-1 text-sm">
+          <li><a href="/policies/privacy-policy" class="hover:text-blue-900">Política de Privacidade</a></li>
+          <li><a href="/policies/terms-of-service" class="hover:text-blue-900">Termos e Condições</a></li>
+          <li><a href="/policies/legal-notice" class="hover:text-blue-900">Resolução Alternativa de Litígios</a></li>
+          <li><a href="https://www.livroreclamacoes.pt/INICIO/" class="hover:text-blue-900" target="_blank" rel="noopener noreferrer">Livro de Reclamações</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Contactos</h3>
+        <p class="text-sm mb-4">
+          <a href="mailto:shop@lflafemme.com" class="hover:text-blue-900">shop@lflafemme.com</a>
+        </p>
+        <h3 class="font-semibold mb-2">Métodos de Pagamento</h3>
+        <img
+          src="https://lflafemme.com/cdn/shop/files/logos_payments.png?v=1735234848&width=3200"
+          alt="Logos Métodos de Pagamentos"
+          class="w-48 object-contain"
+        />
+      </div>
+      <div>
+        <h3 class="font-semibold mb-2">Subscreve e recebe 10% desconto</h3>
+        <form class="mb-6">
+          <input
+            type="email"
+            placeholder="E-mail"
+            class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-900"
+            required
+          />
+          <button
+            type="submit"
+            class="mt-2 w-full bg-blue-900 text-white py-2 rounded hover:bg-blue-800 transition-colors"
+          >
+            Subscrever
+          </button>
+        </form>
+        <h3 class="font-semibold mb-2">Redes Sociais</h3>
+        <div class="flex space-x-4 text-blue-900">
+          <a href="https://www.facebook.com/LFLaFemmeBrand" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="hover:text-blue-700">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="https://www.instagram.com/lafemme_brand_" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="hover:text-pink-600">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+          <a href="https://www.tiktok.com/@lafemme_brand" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="hover:text-black">
+            <i class="fab fa-tiktok fa-lg"></i>
+          </a>
+        </div>
+        <div class="mt-6 flex space-x-4">
+          <a href="https://play.google.com/store/apps/details?id=pt.lilianafilipa.store&hl=pt" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://lflafemme.com/cdn/shop/t/2/assets/android.svg?v=179668567575838289981724681968"
+              alt="Google Play Store"
+              class="h-10 object-contain"
+            />
+          </a>
+          <a href="https://apps.apple.com/pt/app/lf-brand/id6444404889" target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://lflafemme.com/cdn/shop/t/2/assets/apple.svg?v=40624228102704113281724681984"
+              alt="App Store"
+              class="h-10 object-contain"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-12 text-center text-sm text-gray-500">
+      © 2025, <a href="/" class="hover:text-blue-900">La Femme</a>.
+    </div>
+  </footer>
+
+</body>
+</html>
